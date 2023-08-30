@@ -14,12 +14,14 @@ section {
     display: flex;
     justify-content: center;
 }
-.first_sect{
+
+.first_sect {
     background-image: url(/img/green-field-with-sun\ 1.png);
-    height: 100vh;
+    height: 630px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
+
 nav {
     position: fixed;
     background-color: #fff;
@@ -37,8 +39,7 @@ nav {
 .menu ul {
     display: flex;
     padding: 0;
-    margin-left: 400px;
-    margin-right: 80px;
+    margin: 0px 200px;
 }
 
 .menu ul li {
@@ -52,22 +53,87 @@ nav {
     font-size: 16px;
     font-weight: 500;
 }
-.menu ul li a:hover{
-    color: #0F6735;
-}
-.menu ul li a:active{
+
+.menu ul li a:hover {
     color: #0F6735;
 }
 
-.btn button {
+.menu ul li a:active {
+    color: #0F6735;
+}
+
+.log {
     background-color: #FF9933;
     color: #fff;
     padding: 12px 28px;
     border: none;
     border-radius: 4px;
 }
-.btn button:hover{
+.sign{
     background-color: #fff;
+    color: #FF9933;
+    padding: 12px 28px;
+    border: 1px solid #FF9933;
+    border-radius: 4px;
+}
+
+.log:hover {
+    background-color: #fff;
+    border: 1px solid #FF9933;
+    color: #FF9933;
+    cursor: pointer;
+}
+.sign:hover {
+    background-color: #FF9933;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* first banner */
+.first_banner{
+    display: flex;
+    justify-content: center;
+}
+.first_ban {
+    margin-top: 200px;
+}
+
+.first_ban h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+}
+
+.first_ban p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+.btn2{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn2 button {
+    background-color: #FF9933;
+    color: #fff;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn2 button:hover {
+    background-color: transparent;
     border: 1px solid #FF9933;
     color: #FF9933;
     cursor: pointer;
