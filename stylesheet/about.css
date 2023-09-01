@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* * {
+    transition: all 0.3s;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(232, 232, 232, 0.25);
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.all-sections{
+    width: 1100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0px 200px;
+}
+
+.menu ul li {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu ul li a:hover {
+    color: #0F6735;
+}
+
+.menu ul li a:active {
+    color: #0F6735;
+}
+
+.log {
+    background-color: #FF9933;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+}
+.sign{
+    background-color: #fff;
+    color: #FF9933;
+    padding: 12px 28px;
+    border: 1px solid #FF9933;
+    border-radius: 4px;
+}
+
+.log:hover {
+    background-color: #fff;
+    border: 1px solid #FF9933;
+    color: #FF9933;
+    cursor: pointer;
+}
+.sign:hover {
+    background-color: #FF9933;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.first_sect{
+    background-image: url(/img/Discount\ Bannar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.flash_sales{
+    margin-top: 150px;
+}
+
+.best{
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+
+.month-percent{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.month-percent > h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.percent{
+    background-color: #FF9933;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    margin-left:30px;
+}
+.percent h3{
+    font-size: 25px;
+    margin: 0;
+}
+.percent p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.count-down{
+    display: flex;
+    gap: 0.5rem;
+}
+.days{
+    text-align: center;
+}
+.digit{
+    font-size: 30px;
+    color: #16a71f;
+    margin: 0;
+}
+.digits{
+    font-size: 30px;
+    color: #a9a8a8;
+    margin: 0;
+}
+.mins{
+    font-size: 12px;
+    color: #a9a8a8;
+}
+.btn3{
+    margin-top: 20px;
+}
+.btn3 button{
+    background-color: #0F6735;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+/* Second Section About */
+
+.second_sect{
+    margin-top: 100px;
+}
+.about{
+    text-align: center;
+}
+.about h3{
+    font-size: 45px;
+    margin: 0;
+    color: #FF9933;
+}
+.about p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.about_cards{
+    margin-top: 100px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.card_text{
+    width: 500px;
+}
+.card_text h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+.card_text p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #5f5e5e;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 30px;
+}
+.card_text2{
+    width: 700px;
+}
+.card_text2 h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    text-align: right;
+}
+.card_text2 > p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #5f5e5e;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+    text-align: right;
+}
+.card_image{
+    width: 500px;
+}
+.card_image img{
+    width: 100%;
+}
+.card_image2{
+    width: 400px;
+}
+.card_image2 img{
+    width: 100%;
+}
+.card_ico{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.icons2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_image{
+    width: 70px;
+}
+.icon_image img{
+    width: 100%;
+}
+.icon_text{
+    margin-left: 10px;
+}
+.icon_text h4{
+    margin: 0;
+    font-size: 20px;
+}
+.icon_text p{
+    margin: 0;
+    font-size: 15px;
+    color: #5f5e5e;
+}
+
