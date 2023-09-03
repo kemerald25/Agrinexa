@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* * {
+* {
     transition: all 0.3s;
-} */
+}
 
 body {
     margin: 0;
@@ -58,6 +58,9 @@ section {
 .menu ul li a:active {
     color: #0F6735;
 }
+.btn2{
+    display: none;
+}
 
 .log {
     background-color: #FF9933;
@@ -68,9 +71,9 @@ section {
 }
 .sign{
     background-color: #fff;
-    color: #FF9933;
+    color: #0F6735;
     padding: 12px 28px;
-    border: 1px solid #FF9933;
+    border: 1px solid #0F6735;
     border-radius: 4px;
 }
 
@@ -81,11 +84,31 @@ section {
     cursor: pointer;
 }
 .sign:hover {
-    background-color: #FF9933;
+    background-color: #0F6735;
     border: none;
     color: #fff;
     cursor: pointer;
 }
+.nav-links {
+    transition: 0.7s ease;
+}
+
+.hambuger {
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+}
+
 
 .first_sect{
     background-image: url(/img/Discount\ Bannar.png);
@@ -165,9 +188,17 @@ section {
     display: flex;
     align-items: center;
 }
+.btn3 button:hover{
+    background-color: #fff;
+    color: #0F6735;
+    border: 1px solid #0F6735;
+}
 .arrow{
     margin-left: 10px;
     font-weight: 300;
+}
+.arrow:hover{
+    color: #0F6735;
 }
 
 /* Second Section About */
@@ -196,16 +227,28 @@ section {
     align-items: center;
     margin-bottom: 100px;
 }
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
 .card_text{
     width: 500px;
 }
 .card_text h2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     margin: 0;
 }
 .card_text p{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     color: #5f5e5e;
     font-weight: 500;
@@ -216,19 +259,36 @@ section {
     width: 700px;
 }
 .card_text2 h2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     margin: 0;
     text-align: right;
 }
 .card_text2 > p{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     color: #5f5e5e;
     font-weight: 500;
     margin: 0;
     margin-top: 10px;
     text-align: right;
+}
+
+.card_text3{
+    width: 500px;
+}
+.card_text3 h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+.card_text3 p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #5f5e5e;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 30px;
 }
 .card_image{
     width: 500px;
@@ -277,4 +337,85 @@ section {
     font-size: 15px;
     color: #5f5e5e;
 }
-
+.delivery{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.delivery_text{
+    margin: 0;
+    margin-left: 10px;
+}
+.delivery_text p{
+    margin: 0;
+    font-size: 16px;
+}
+.team_heading h3{
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+.team_heading p{
+    text-align: center;
+    font-size: 18px;
+}
+.team_cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 30px;
+}
+.team{
+    width: 260px;
+    height: 370px;
+    background-color: #fff;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.469);
+    border-radius: 10px;
+    text-align: center;
+}
+.team_img{
+    width: 260px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.team_img img{
+    width: 100%;
+    border-radius: 10px
+}
+.team_name{
+    margin-top: 20px;
+}
+.team_name h2{
+    margin: 0;
+    font-size: 18px;
+}
+.team_name p{
+    margin: 0;
+    font-size: 14px;
+    color: #808080;
+}
+.team_social{
+    background-color: #0000008d;
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 300px;
+    bottom: 358px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.team:hover .team_social{
+    display: block;
+    cursor: pointer;
+}
+.social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}

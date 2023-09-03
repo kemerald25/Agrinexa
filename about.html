@@ -7,6 +7,7 @@
     <title>About Us</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='stylesheet/about.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylesheet/aboutresponsive.css'>
 </head>
 
 <body>
@@ -16,18 +17,29 @@
                 <a href="index.html"> <img src="/img/Asset 5 1.png" alt=""></a>
             </div>
             <div class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
+                <ul class="nav-menu">
+                    <li class="index"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Sellers</a></li>
+                    <div class="btn2">
+                        <button class="log">Log In</button>
+                        <button class="sign">Sign Up</button>
+                    </div>
                 </ul>
             </div>
             <div class="btn">
                 <button class="log">Log In</button>
                 <button class="sign">Sign Up</button>
             </div>
+
+            <div class="hambuger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
+
     </nav>
 
     <section class="first_sect">
@@ -42,26 +54,27 @@
                             <p>OFF</p>
                         </div>
                     </div>
-
-                    <div class="count-down">
-                        <div class="days">
-                            <p class="digit">00</p>
-                            <p class="mins">DAYS</p>
-                        </div>
-                        <p class="digits">:</p>
-                        <div class="days">
-                            <p class="digit">24</p>
-                            <p class="mins">HOURS</p>
-                        </div>
-                        <p class="digits">:</p>
-                        <div class="days">
-                            <p class="digit">60</p>
-                            <p class="mins">MINS</p>
-                        </div>
-                        <p class="digits">:</p>
-                        <div class="days">
-                            <p class="digit">30</p>
-                            <p class="mins">SECS</p>
+                    <div class="countdown">
+                        <div class="count-down">
+                            <div class="days">
+                                <p class="digit" id="days">00</p>
+                                <p class="mins">DAYS</p>
+                            </div>
+                            <p class="digits">:</p>
+                            <div class="days">
+                                <p class="digit" id="hours">00</p>
+                                <p class="mins">HOURS</p>
+                            </div>
+                            <p class="digits">:</p>
+                            <div class="days">
+                                <p class="digit" id="minutes">00</p>
+                                <p class="mins">MINS</p>
+                            </div>
+                            <p class="digits">:</p>
+                            <div class="days">
+                                <p class="digit" id="seconds">00</p>
+                                <p class="mins">SECS</p>
+                            </div>
                         </div>
                     </div>
                     <div class="btn3">
@@ -96,13 +109,14 @@
                         <img src="/img/Image.png" alt="">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card2">
                     <div class="card_image2">
-                        <img src="/img/Image.png" alt="">
+                        <img src="/img/man.png" alt="">
                     </div>
                     <div class="card_text2">
                         <h2>100% Trusted <br> Organic Food Store</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing  elit. Voluptatum <br> reprehenderit eum tempore ea impedit, a quaerat beatae optio quos perspiciatis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum <br> reprehenderit eum
+                            tempore ea impedit, a quaerat beatae optio quos perspiciatis?</p>
                         <div class="card_icons">
                             <div class="card_ico">
                                 <div class="icons">
@@ -116,7 +130,7 @@
                                 </div>
                                 <div class="icons2">
                                     <div class="icon_image">
-                                        <img src="img/Icon (1).png" alt="">
+                                        <img src="img/Icon (5).png" alt="">
                                     </div>
                                     <div class="icon_text">
                                         <h4>100% Organic Food</h4>
@@ -127,7 +141,7 @@
                             <div class="card_ico">
                                 <div class="icons">
                                     <div class="icon_image">
-                                        <img src="img/Icon (1).png" alt="">
+                                        <img src="img/Icon.png" alt="">
                                     </div>
                                     <div class="icon_text">
                                         <h4>100% Organic Food</h4>
@@ -136,7 +150,7 @@
                                 </div>
                                 <div class="icons2">
                                     <div class="icon_image">
-                                        <img src="img/Icon (1).png" alt="">
+                                        <img src="img/Icon (4).png" alt="">
                                     </div>
                                     <div class="icon_text">
                                         <h4>100% Organic Food</h4>
@@ -147,7 +161,7 @@
                             <div class="card_ico">
                                 <div class="icons">
                                     <div class="icon_image">
-                                        <img src="img/Icon (1).png" alt="">
+                                        <img src="img/Icon (2).png" alt="">
                                     </div>
                                     <div class="icon_text">
                                         <h4>100% Organic Food</h4>
@@ -156,7 +170,7 @@
                                 </div>
                                 <div class="icons2">
                                     <div class="icon_image">
-                                        <img src="img/Icon (1).png" alt="">
+                                        <img src="img/Icon (3).png" alt="">
                                     </div>
                                     <div class="icon_text">
                                         <h4>100% Organic Food</h4>
@@ -168,21 +182,142 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card_text">
-                        <h2>100% Trusted <br> Organic Food Store</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit porro nulla inventore quas. Ut
-                            iusto saepe voluptatem suscipit asperiores? Accusamus velit tempora architecto odio,
-                            molestiae vel et eum deserunt. Dolores.</p>
+                <div class="card3">
+                    <div class="card_text3">
+                        <h2>We Deliver You <br> Enjoy Your Order</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aliquam cumque voluptatem
+                            perferendis eos eius optio nulla natus corrupti sit.</p>
+
+                        <div class="all_delivery">
+                            <div class="delivery">
+                                <div class="delivery_icon">
+                                    <img src="/img/Check.png" alt="">
+                                </div>
+                                <div class="delivery_text">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="delivery">
+                                <div class="delivery_icon">
+                                    <img src="/img/Check.png" alt="">
+                                </div>
+                                <div class="delivery_text">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                            <div class="delivery">
+                                <div class="delivery_icon">
+                                    <img src="/img/Check.png" alt="">
+                                </div>
+                                <div class="delivery_text">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn3">
+                            <button>Shop Now <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1.2em"
+                                    viewBox="0 0 448 512"
+                                    fill="white"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg></button>
+                        </div>
                     </div>
                     <div class="card_image">
-                        <img src="/img/Image.png" alt="">
+                        <img src="/img/Image (3).png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <section class="third_sect">
+        <div class="all-sections">
+            <div class="teams">
+                <div class="team_heading">
+                    <h3>Our Awesome Team</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maiores <br> modi repellendus quam
+                        perferendis nam. Porro quam error commodi minima?</p>
+                </div>
+                <div class="carousel_arrow"></div>
+                <div class="team_cards">
+                    <div class="team">
+                        <div class="team_img">
+                            <img src="img/Unity.jpg" alt="">
+                        </div>
+                        <div class="team_name">
+                            <h2>Unity Ekeoba</h2>
+                            <p>Co-founder</p>
+                        </div>
+                        <div class="team_social">
+                            <div class="social_icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512"
+                                    fill="white"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1.2em"
+                                    viewBox="0 0 448 512"
+                                    fill="white"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1.2em"
+                                    viewBox="0 0 448 512"
+                                    fill="white"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="1.2em"
+                                    viewBox="0 0 448 512"
+                                    fill="white"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team_img">
+                            <img src="img/Unity.jpg" alt="">
+                        </div>
+                        <div class="team_name">
+                            <h2>Unity Ekeoba</h2>
+                            <p>Co-founder</p>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team_img">
+                            <img src="img/Unity.jpg" alt="">
+                        </div>
+                        <div class="team_name">
+                            <h2>Unity Ekeoba</h2>
+                            <p>Co-founder</p>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team_img">
+                            <img src="img/Unity.jpg" alt="">
+                        </div>
+                        <div class="team_name">
+                            <h2>Unity Ekeoba</h2>
+                            <p>Co-founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <secttion class="fourth_sect">
+        <div class="all-sections">
+            <div class="testimonial">
+
+            </div>
+        </div>
+    </secttion>
     <script src='main.js'></script>
 </body>
 
