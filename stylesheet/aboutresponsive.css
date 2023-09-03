@@ -619,7 +619,7 @@
         height: 300px;
     }
 }
-@media screen and (max-width: 425px) and (min-width: 425px) {
+@media screen and (max-width: 425px) and (min-width: 321px) {
     * {
         transition: all 0.5s;
     }
@@ -627,7 +627,7 @@
         max-width: 425px;
     }
    .navbar{
-    gap: 100px;
+    gap: 70px;
    }
     .menu ul li {
         padding: 10px 10px;
@@ -719,6 +719,14 @@
         display: flex;
         align-items: center;
     }
+    .month-percent{
+        flex-direction: column;
+    }
+    .countdown{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
     .month-percent > h3{
         font-size: 30px;
     }
@@ -738,7 +746,7 @@
         border-radius: 50%;
         text-align: center;
         padding: 20px;
-        margin-left:70px;
+        margin-left:0px;
     }
     .percent h3{
         font-size: 15px;
@@ -763,6 +771,9 @@
     .card_image{
         width: 300px;
     }
+    .card_image2{
+        width: 300px;
+    }
     .icon_image{
         width: 40px;
     }
@@ -774,48 +785,63 @@
     }
     .card_text h2{
         text-align: center;
+        font-size: 20px;
     }
     .card_text p{
         text-align: center;
+        font-size: 12px;
+        line-height: 20px;
     }
     .card_text2{
         width: 100%;
     }
     .card_text2 > p br{
-        display: block;
+        display: none;
     }
     .card_text2 h2{
         text-align: center;
+        font-size: 20px;
     }
     .card_text2 p{
         text-align: center;
+        font-size: 12px;
+    }
+    .card_text3 > p br{
+        display: none;
     }
     .card_text3 h2{
         text-align: center;
+        font-size: 20px;
     }
     .card_text3 > p{
         text-align: center;
+        font-size: 12px;
     }
     .card_ico{
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
+        text-align: left;
     }
     .icons{
         margin-left: 0px;
     }
     .icon_text h4{
-        font-size: 15px;
+        font-size: 12px;
     }
     .icon_text p{
-        font-size: 12px;
+        font-size: 10px;
+        text-align: left;
     }
     .btn3{
         align-items: center;
         justify-content: center;
         display: flex;
     }
+    .team_heading h3{
+        font-size: 20px;
+    }
     .team_heading p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .team_cards{
         gap: 25px;
@@ -824,11 +850,503 @@
         align-items: center;
     }
     .team{
-        width: 320px;
+        width: 280px;
         height: 380px;
     }
     .team_img{
-        width: 320px;
+        width: 280px;
         height: 300px;
+    }
+}
+@media screen and (max-width: 320px) and (min-width: 281px) {
+    * {
+        transition: all 0.5s;
+    }
+    .first_sect{
+        height: 100vh;
+    }
+    nav{
+        max-width: 320px;
+    }
+   .navbar{
+    gap: 70px;
+   }
+    .menu ul li {
+        padding: 10px 10px;
+    }
+    .menu ul{
+        margin: 0px 0px;
+    }
+    .menu ul li a{
+        color: #fff;
+    }
+    .menu ul li a:hover{
+        color: #FF9933;
+        cursor: pointer;
+    }
+    section {
+        max-width: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .all-sections{
+        width: 250px;
+    }
+    .hambuger {
+        display: block;
+    }
+    .hambuger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hambuger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hambuger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .btn{
+        display: none;
+    }
+    .btn2{
+        display: block;
+        flex-direction: column;
+    }
+    .index{
+        margin-top: 50px;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 50%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: #0F6735;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .logo{
+        width: 80px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .log {
+        background-color: #FF9933;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+    }
+    .sign{
+        background-color: #fff;
+        color: #0F6735;
+        padding: 10px 20px;
+        border: 1px solid #0F6735;
+        border-radius: 4px;
+    }
+    .btn3 button {
+        background-color: #0F6735;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .month-percent{
+        flex-direction: column;
+    }
+    .countdown{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .month-percent > h3{
+        font-size: 30px;
+    }
+    .sale{
+        text-align: center;
+    }
+    .digit{
+        font-size: 20px;
+    }
+    .digits{
+        font-size: 20px;
+    }
+    .percent{
+        background-color: #FF9933;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 20px;
+        margin-left:0px;
+    }
+    .percent h3{
+        font-size: 15px;
+        margin: 0;
+    }
+    .percent p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .card{
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .card2{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .card3{
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .card_image{
+        width: 250px;
+    }
+    .card_image2{
+        width: 250px;
+    }
+    .icon_image{
+        width: 40px;
+    }
+    .card_text{
+        width: 100%;
+    }
+    .card_text3{
+        width: 100%;
+    }
+    .card_text h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_text p{
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .card_text2{
+        width: 100%;
+    }
+    .card_text2 > p br{
+        display: none;
+    }
+    .card_text2 h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_text2 p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .card_text3 > p br{
+        display: none;
+    }
+    .card_text3 h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_text3 > p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .card_ico{
+        justify-content: center;
+        gap: 15px;
+        text-align: left;
+        flex-direction: column;
+    }
+    .icons{
+        margin-left: 0px;
+    }
+    .icon_text h4{
+        font-size: 12px;
+    }
+    .icon_text p{
+        font-size: 10px;
+        text-align: left;
+    }
+    .btn3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .team_heading h3{
+        font-size: 20px;
+    }
+    .team_heading p{
+        font-size: 12px;
+    }
+    .team_cards{
+        gap: 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team{
+        width: 200px;
+        height: 300px;
+    }
+    .team_img{
+        width: 200px;
+        height: 210px;
+    }
+}
+@media screen and (max-width: 280px) {
+    * {
+        transition: all 0.5s;
+    }
+    .first_sect{
+        height: 100vh;
+    }
+    nav{
+        max-width: 280px;
+    }
+   .navbar{
+    gap: 70px;
+   }
+    .menu ul li {
+        padding: 10px 10px;
+    }
+    .menu ul{
+        margin: 0px 0px;
+    }
+    .menu ul li a{
+        color: #fff;
+    }
+    .menu ul li a:hover{
+        color: #FF9933;
+        cursor: pointer;
+    }
+    section {
+        max-width: 280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .all-sections{
+        width: 190px;
+    }
+    .hambuger {
+        display: block;
+    }
+    .hambuger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hambuger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hambuger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .btn{
+        display: none;
+    }
+    .btn2{
+        display: block;
+        flex-direction: column;
+    }
+    .index{
+        margin-top: 50px;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        height: 100vh;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 9rem;
+        padding-top: 2rem;
+        width: 50%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: #0F6735;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .logo{
+        width: 80px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .log {
+        background-color: #FF9933;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+    }
+    .sign{
+        background-color: #fff;
+        color: #0F6735;
+        padding: 10px 20px;
+        border: 1px solid #0F6735;
+        border-radius: 4px;
+    }
+    .btn3 button {
+        background-color: #0F6735;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .month-percent{
+        flex-direction: column;
+    }
+    .countdown{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .month-percent > h3{
+        font-size: 30px;
+    }
+    .sale{
+        text-align: center;
+    }
+    .digit{
+        font-size: 20px;
+    }
+    .digits{
+        font-size: 20px;
+    }
+    .percent{
+        background-color: #FF9933;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 20px;
+        margin-left:0px;
+    }
+    .percent h3{
+        font-size: 15px;
+        margin: 0;
+    }
+    .percent p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .card{
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .card2{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .card3{
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .card_image{
+        width: 250px;
+    }
+    .card_image2{
+        width: 250px;
+    }
+    .icon_image{
+        width: 40px;
+    }
+    .card_text{
+        width: 100%;
+    }
+    .card_text3{
+        width: 100%;
+    }
+    .card_text h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_text p{
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .card_text2{
+        width: 100%;
+    }
+    .card_text2 > p br{
+        display: none;
+    }
+    .card_text2 h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_text2 p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .card_text3 > p br{
+        display: none;
+    }
+    .card_text3 h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card_text3 > p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .card_ico{
+        justify-content: center;
+        gap: 15px;
+        text-align: left;
+        flex-direction: column;
+    }
+    .icons{
+        margin-left: 0px;
+    }
+    .icon_text h4{
+        font-size: 12px;
+    }
+    .icon_text p{
+        font-size: 10px;
+        text-align: left;
+    }
+    .btn3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .team_heading h3{
+        font-size: 20px;
+    }
+    .team_heading p{
+        font-size: 12px;
+    }
+    .team_cards{
+        gap: 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team{
+        width: 200px;
+        height: 300px;
+    }
+    .team_img{
+        width: 200px;
+        height: 210px;
     }
 }
