@@ -308,17 +308,19 @@ section {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 0px;
 }
 .icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 120px;
+    width: 280px;
 }
 .icons2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 280px;
 }
 .icon_image{
     width: 70px;
@@ -332,6 +334,7 @@ section {
 .icon_text h4{
     margin: 0;
     font-size: 20px;
+    font-weight: 600;
 }
 .icon_text p{
     margin: 0;
