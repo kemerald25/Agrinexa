@@ -56,11 +56,11 @@ nav {
 }
 
 .menu ul li a:hover {
-    color: #0F6735;
+    color: #FF9933;
 }
 
 .menu ul li a:active {
-    color: #0F6735;
+    color: #FF9933;
 }
 
 .log {
@@ -70,7 +70,8 @@ nav {
     border: none;
     border-radius: 4px;
 }
-.sign{
+
+.sign {
     background-color: #fff;
     color: #FF9933;
     padding: 12px 28px;
@@ -84,6 +85,7 @@ nav {
     color: #FF9933;
     cursor: pointer;
 }
+
 .sign:hover {
     background-color: #FF9933;
     border: none;
@@ -92,10 +94,11 @@ nav {
 }
 
 /* first banner */
-.first_banner{
+.first_banner {
     display: flex;
     justify-content: center;
 }
+
 .first_ban {
     margin-top: 200px;
 }
@@ -119,12 +122,14 @@ nav {
     margin: 0;
     margin-top: 10px;
 }
-.btn2{
+
+.btn2 {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 .btn2 button {
     background-color: #FF9933;
     color: #fff;
@@ -138,4 +143,54 @@ nav {
     border: 1px solid #FF9933;
     color: #FF9933;
     cursor: pointer;
+}
+
+.second_sect {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.second_section h2 {
+    color: #000;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    /* 75% */
+}
+
+.input_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    box-shadow: 0px 4px 4px 0px rgba(51, 51, 51, 0.24);
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.input_field input {
+    width: 500px;
+    background: #FFF;
+    outline: none;
+    border: none;
+    color: rgba(38, 50, 56, 0.541);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.search_icon {
+    background-color: #FF9933;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
 }
