@@ -560,7 +560,7 @@ footer{
 }
 .down_footer{
     display: flex;
-    gap: 70px;
+    gap: 50px;
     margin-top: 20px;
 }
 .footer_link{
@@ -589,7 +589,7 @@ footer{
 }
 .newsletter{
     background-color: #ff9933b7;
-    width: 300px;
+    width: 320px;
     border-radius: 8px;
     padding-bottom: 10px;
 }
@@ -635,4 +635,5 @@ footer{
     margin: 0 auto;
     margin-top: 20px;
     width: 280px;
+    font-weight: 400;
 }
