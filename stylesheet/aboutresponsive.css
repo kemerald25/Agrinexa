@@ -3,7 +3,13 @@
         max-width: 1200px;
     }
     .menu ul{
-        margin: 0px 150px;
+        margin: 0px 160px;
+    }
+    footer{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; 
     }
     section {
         max-width: 1200px;
@@ -26,13 +32,31 @@
     .team_img{
         width: 230px;
     }
+    .carl{
+        left: 300px;
+    }
+    .test_card{
+        width: 300px;
+    }
+    .down_footer{
+        gap: 60px;
+    }
+    .footer_link ul li a{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 1100px) and (min-width: 950px) {
     nav{
         max-width: 1100px;
     }
     .menu ul{
-        margin: 0px 100px;
+        margin: 0px 120px;
+    }
+    footer{
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 1100px;
@@ -69,6 +93,44 @@
         width: 200px;
         height: 200px;
     }
+    .carl{
+        left: 200px;
+    }
+    .test_card{
+        width: 280px;
+    }
+    .down_footer{
+        gap: 40px;
+    }
+    .footer_link ul li a{
+        font-size: 15px;
+    }
+    .newsletter{
+        width: 280px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .input_field{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 250px;
+     }
+    .input_field button {
+        padding: 0px 10px;
+    }
 }
 @media screen and (max-width: 949px) and (min-width: 801px) {
     nav{
@@ -78,7 +140,13 @@
         padding: 0px 10px;
     }
     .menu ul{
-        margin: 0px 50px;
+        margin: 0px 80px;
+    }
+    footer {
+        max-width: 949px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 949px;
@@ -150,6 +218,66 @@
         width: 180px;
         height: 200px;
     }
+    .carl{
+        left: 150px;
+    }
+    .testimonial_card{
+        gap: 10px;
+    }
+    .customer_img{
+        width: 40px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+    }
+    .down_footer{
+        gap: 20px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 15px;
+    }
+    .footer_link h3{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 250px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 800px) and (min-width: 769px) {
     nav{
@@ -160,6 +288,12 @@
     }
     .menu ul{
         margin: 0px 20px;
+    }
+    footer {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 800px;
@@ -243,6 +377,71 @@
         width: 150px;
         height: 150px;
     }
+    .carl{
+        left: 100px;
+    }
+    .testimonial_card{
+        gap: 20px;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer_img{
+        width: 40px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+        height: 300px;
+    }
+    .down_footer{
+        gap: 20px;
+    }
+    .footer_link ul li a{
+        font-size: 10px;
+    }
+    .footer_link ul li a svg{
+        font-size: 15px;
+    }
+    .footer_link h3{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 250px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 768px) and (min-width: 601px) {
     * {
@@ -266,6 +465,12 @@
     .menu ul li a:hover{
         color: #FF9933;
         cursor: pointer;
+    }
+    footer {
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 768px;
@@ -456,6 +661,84 @@
         width: 320px;
         height: 300px;
     }
+
+    .carl{
+        left: 100px;
+        display: none;
+    }
+    .test{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .testimonial_card{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer_img{
+        width: 50px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+        height: 300px;
+    }
+    .down_footer{
+        gap: 20px;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 20px;
+    }
+    .footer_link ul li a svg{
+        font-size: 25px;
+    }
+    .footer_link h3{
+        font-size: 25px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 600px) and (min-width: 426px) {
     * {
@@ -465,7 +748,7 @@
         max-width: 600px;
     }
    .navbar{
-    gap: 100px;
+    gap: 135px;
    }
     .menu ul li {
         padding: 10px 10px;
@@ -479,6 +762,12 @@
     .menu ul li a:hover{
         color: #FF9933;
         cursor: pointer;
+    }
+    footer {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 600px;
@@ -687,6 +976,83 @@
         width: 320px;
         height: 300px;
     }
+    .carl{
+        left: 100px;
+        display: none;
+    }
+    .test{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .testimonial_card{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer_img{
+        width: 50px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+        height: 300px;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 18px;
+    }
+    .footer_link ul li a svg{
+        font-size: 25px;
+    }
+    .footer_link h3{
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 425px) and (min-width: 321px) {
     * {
@@ -710,6 +1076,12 @@
     .menu ul li a:hover{
         color: #FF9933;
         cursor: pointer;
+    }
+    footer {
+        max-width: 425px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 425px;
@@ -952,6 +1324,83 @@
         width: 280px;
         height: 300px;
     }
+    .carl{
+        left: 100px;
+        display: none;
+    }
+    .test{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .testimonial_card{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer_img{
+        width: 50px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+        height: 300px;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 20px;
+    }
+    .footer_link h3{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 320px) and (min-width: 281px) {
     * {
@@ -978,6 +1427,12 @@
     .menu ul li a:hover{
         color: #FF9933;
         cursor: pointer;
+    }
+    footer {
+        max-width: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 320px;
@@ -1218,6 +1673,86 @@
         width: 200px;
         height: 210px;
     }
+    .carl{
+        left: 100px;
+        display: none;
+    }
+    .test{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .testimonial_card{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer_img{
+        width: 50px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+        height: 300px;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .feet{
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 20px;
+    }
+    .footer_link h3{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 280px) {
     * {
@@ -1244,6 +1779,12 @@
     .menu ul li a:hover{
         color: #FF9933;
         cursor: pointer;
+    }
+    footer {
+        max-width: 280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     section {
         max-width: 280px;
@@ -1482,5 +2023,86 @@
     .team_img{
         width: 200px;
         height: 210px;
+    }
+    .carl{
+        left: 100px;
+        display: none;
+    }
+    .test{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .testimonial_card{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer_img{
+        width: 50px;
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    .star_svg svg{
+        font-size: 10px;
+    }
+    .test_card{
+        width: 227px;
+        height: 300px;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .feet{
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 20px;
+    }
+    .footer_link h3{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 170px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 170px;
+    }
+    .input_field{
+        width: 170px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+        width: 120px;
+    }
+    .input_field form{
+        width: 170px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 8px;
     }
 }
