@@ -474,3 +474,15 @@ section {
     position: relative;
     left: 350px;
 }
+.test_card{
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+.quote_svg{
+    font-size: 30px;
+    color: #0f673579;
+    margin-left: 30px;
+    margin-top: 20px;
+}
