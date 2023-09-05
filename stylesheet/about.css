@@ -204,6 +204,20 @@ section {
 .arrow:hover{
     color: #0F6735;
 }
+.arrows{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(63, 63, 63, 0.25);
+    background-color: #fff;
+    border-radius: 50%;
+}
+.arrows:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #0F6735;
+}
 
 /* Second Section About */
 
@@ -364,7 +378,7 @@ section {
 }
 .team_heading p{
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 .carousel_arrow{
     display: flex;
@@ -439,11 +453,26 @@ section {
     background-color: #0F6735;
     border-radius: 50%;
 }
-.testimonial{
+.test{
+    background-color: #F2F2F2;
+    height: 500px;
     margin-top: 100px;
+}
+.testimonial{
+    
+}
+.testimonial_heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 .testimonial_heading h3{
     font-size: 35px;
     text-align: center;
     margin: 0;
+}
+.carl{
+    display: flex;
+    position: relative;
+    left: 350px;
 }
