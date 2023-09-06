@@ -7,7 +7,7 @@
     <title>Agrinexa</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='stylesheet/main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylesheet/responsive.css'>
 </head>
 
 <body>
@@ -15,49 +15,66 @@
         <nav>
             <div class="navbar">
                 <div class="logo">
-                    <a href=""> <img src="/img/Asset 5 1.png" alt=""></a>
+                    <a href="index.html"> <img src="/img/Asset 5 1.png" alt=""></a>
                 </div>
                 <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
+                    <ul class="nav-menu">
+                        <li class="index"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Sellers</a></li>
+                        <div class="btn2">
+                            <button class="log">Log In</button>
+                            <button class="sign">Sign Up</button>
+                        </div>
                     </ul>
                 </div>
                 <div class="btn">
                     <button class="log">Log In</button>
                     <button class="sign">Sign Up</button>
                 </div>
+
+                <div class="hambuger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
+
         </nav>
-        <div class="first_banner">
-            <div class="first_ban">
-                <h2>Connecting Farmers and Buyers in the <br>
-                    Agricultural MarketPlace </h2>
-                <p>Find fresh, locally grown produce directly from farmers.</p>
-                <div class="btn2">
-                    <button>Browse Products</button>
+        <div class="all-sections">
+            <div class="first_banner">
+                <div class="first_ban">
+                    <h2>Connecting Farmers and Buyers in the <br>
+                        Agricultural MarketPlace </h2>
+                    <p>Find fresh, locally grown produce directly from farmers.</p>
+                    <div class="btn3">
+                        <button>Browse Products</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="second_sect">
-        <div class="second_section">
-            <h2>Popular Categories:</h2>
+        <div class="all-sections">
+            <div class="second_section">
+                <h2>Popular Categories:</h2>
 
-            <div class="input_field">
-                <input type="search" name="" id="" placeholder="Search for Products">
-                <svg class="search_icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
-                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z">
-                    </path>
-                </svg>
+                <div class="input_field">
+                    <input type="search" name="" id="" placeholder="Search for Products">
+                    <svg class="search_icon" stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z">
+                        </path>
+                    </svg>
+                </div>
             </div>
         </div>
     </section>
+
+    <script src='main.js'></script>
 </body>
 
 </html>
