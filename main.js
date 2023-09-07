@@ -55,3 +55,29 @@ updateCountdown();
 // Update the countdown every second
 const countdownInterval = setInterval(updateCountdown, 1000);
 });
+
+
+
+
+// JavaScript to handle slide changes
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
+const scrollableWrapper = document.querySelector('.scrollable_wrapper');
+
+let scrollPosition = 0;
+
+prevButton.addEventListener('click', () => {
+    scrollPosition -= 300; // Adjust the scroll distance as needed
+    scrollableWrapper.scrollTo({
+        left: scrollPosition,
+        behavior: 'smooth'
+    });
+});
+
+nextButton.addEventListener('click', () => {
+    scrollPosition += 300; // Adjust the scroll distance as needed
+    scrollableWrapper.scrollTo({
+        left: scrollPosition,
+        behavior: 'smooth'
+    });
+});

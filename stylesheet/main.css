@@ -282,3 +282,53 @@ nav {
     border: 1px solid #0F6735;
     color: #0F6735;
 }
+
+
+
+.products_slide {
+    width: 100%;
+    overflow: hidden;
+}
+.scrollable_wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.scrollable_wrapper {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; /* Prevents wrapping of child elements */
+    scrollbar-width: none;
+}
+.carousel_arrow{
+    display: flex;
+    justify-content: right;
+}
+.arrow{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.arrow:hover{
+    color: #0F6735;
+}
+.arrows{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(63, 63, 63, 0.25);
+    background-color: #fff;
+    border-radius: 50%;
+}
+.arrows:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #0F6735;
+}
+
+
+.product_card {
+    /* Styling for individual product cards */
+    /* e.g., width, margin, padding, border, etc. */
+}
