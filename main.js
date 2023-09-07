@@ -81,3 +81,13 @@ nextButton.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+
+
+document.getElementById('search-form').addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent the form from submitting normally
+    const searchInput = document.getElementById('search-input').value;
+    alert('You searched for: ' + searchInput);
+    // You can replace the alert with an actual search functionality using AJAX or other methods.
+  });
+  
