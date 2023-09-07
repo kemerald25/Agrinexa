@@ -289,6 +289,9 @@ nav {
     width: 100%;
     overflow: hidden;
 }
+.second_section .btn3{
+    margin-top: 20px;
+}
 .scrollable_wrapper::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -299,6 +302,7 @@ nav {
     overflow-x: auto;
     white-space: nowrap; /* Prevents wrapping of child elements */
     scrollbar-width: none;
+    padding: 10px 0;
 }
 .carousel_arrow{
     display: flex;
