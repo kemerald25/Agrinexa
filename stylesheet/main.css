@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     transition: all 0.3s;
 }
@@ -15,7 +16,8 @@ section {
     display: flex;
     justify-content: center;
 }
-.all-sections{
+
+.all-sections {
     width: 1100px;
     margin: 0 auto;
 }
@@ -59,6 +61,14 @@ nav {
     color: #000;
     font-size: 16px;
     font-weight: 500;
+    color: #000;
+
+    /* Body/Medium/Body 2 */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
 }
 
 .menu ul li a:hover {
@@ -68,7 +78,8 @@ nav {
 .menu ul li a.active {
     color: #0F6735;
 }
-.btn2{
+
+.btn2 {
     display: none;
 }
 
@@ -79,7 +90,8 @@ nav {
     border: none;
     border-radius: 4px;
 }
-.sign{
+
+.sign {
     background-color: #fff;
     color: #0F6735;
     padding: 12px 28px;
@@ -93,12 +105,14 @@ nav {
     color: #FF9933;
     cursor: pointer;
 }
+
 .sign:hover {
     background-color: #0F6735;
     border: none;
     color: #fff;
     cursor: pointer;
 }
+
 .nav-links {
     transition: 0.7s ease;
 }
@@ -173,7 +187,6 @@ nav {
 }
 
 .second_sect {
-    height: 100vh;
     padding-top: 50px;
 }
 
@@ -222,53 +235,63 @@ nav {
     cursor: pointer;
     margin-left: 20px;
 }
-.products_slide{
+
+.products_slide {
     margin-top: 50px;
 }
-.all_product{
+
+.all_product {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.product_card{
+
+.product_card {
     width: 200px;
     height: 210px;
     background-color: #fff;
     box-shadow: 0px 4px 4px 0px rgba(73, 73, 73, 0.25);
     border-radius: 8px;
 }
-.product_img{
+
+.product_img {
     width: 200px;
     border-radius: 8px;
 }
-.product_img img{
+
+.product_img img {
     width: 100%;
     overflow: hidden;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.product_name{
+
+.product_name {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px 0;
 }
-.product_name h3{
+
+.product_name h3 {
     margin: 0;
     font-size: 12px;
     font-weight: 600;
     color: #FF9933;
 }
-.product_name p{
+
+.product_name p {
     margin: 0;
     font-size: 15px;
 }
-.product_btn{
+
+.product_btn {
     display: flex;
     justify-content: center;
 }
-.product_btn button{
+
+.product_btn button {
     padding: 8px 9px;
     background-color: #0F6735;
     border-radius: 4px;
@@ -277,7 +300,8 @@ nav {
     font-size: 10px;
     cursor: pointer;
 }
-.product_btn button:hover{
+
+.product_btn button:hover {
     background-color: transparent;
     border: 1px solid #0F6735;
     color: #0F6735;
@@ -289,9 +313,11 @@ nav {
     width: 100%;
     overflow: hidden;
 }
-.second_section .btn3{
+
+.second_section .btn3 {
     margin-top: 20px;
 }
+
 .scrollable_wrapper::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -300,23 +326,28 @@ nav {
 .scrollable_wrapper {
     width: 100%;
     overflow-x: auto;
-    white-space: nowrap; /* Prevents wrapping of child elements */
+    white-space: nowrap;
+    /* Prevents wrapping of child elements */
     scrollbar-width: none;
     padding: 10px 0;
 }
-.carousel_arrow{
+
+.carousel_arrow {
     display: flex;
     justify-content: right;
 }
-.arrow{
+
+.arrow {
     margin-left: 10px;
     font-weight: 600;
     font-size: 30px;
 }
-.arrow:hover{
+
+.arrow:hover {
     color: #0F6735;
 }
-.arrows{
+
+.arrows {
     margin-left: 10px;
     font-weight: 600;
     font-size: 25px;
@@ -325,8 +356,134 @@ nav {
     background-color: #fff;
     border-radius: 50%;
 }
-.arrows:hover{
+
+.arrows:hover {
     color: #fff;
     cursor: pointer;
     background-color: #0F6735;
+}
+
+.third_sect {
+    padding-top: 50px;
+}
+
+.about_agri {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.top_third h2 {
+    text-align: center;
+    color: #000;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.about_agri-img {
+    width: 356px;
+}
+
+.about_agri-img img {
+    width: 100%;
+}
+
+.about_agri-text {
+    width: 524px;
+    margin-left: 50px;
+}
+
+.about_agri-text p {
+    color: #000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.learn_btn {
+    margin-top: 30px;
+}
+
+.learn_btn button {
+    padding: 16px 32px;
+    background-color: #0F6735;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.learn_btn button:hover {
+    background-color: transparent;
+    border: 1px solid #0F6735;
+    color: #0F6735;
+}
+
+.seller_spot {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.sellers {
+    align-items: center;
+    width: 180px;
+}
+
+.sellers h2 {
+    color: #0F6735;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.sellers p {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 6px 0;
+}
+
+.sellers h3 {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.seller_img {
+    width: 106px;
+    height: 106px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.seller_img img {
+    width: 100%;
+}
+
+.rectangle {
+    width: 427px;
+    margin: 0 auto;
 }
