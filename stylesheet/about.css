@@ -385,6 +385,19 @@ footer{
     text-align: center;
     font-size: 15px;
 }
+.scrollable_wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.scrollable_wrapper {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevents wrapping of child elements */
+    scrollbar-width: none;
+    padding: 10px 0;
+}
 .carousel_arrow{
     display: flex;
     justify-content: right;
@@ -497,6 +510,7 @@ footer{
     margin: 0px 20px;
     margin-top: 10px;
     color: #808080;
+    white-space: wrap;
 }
 .quote_svg{
     font-size: 30px;
@@ -509,6 +523,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
+    width: 350px;
 }
 .customer_name h3{
     margin: 0;
@@ -520,6 +535,7 @@ footer{
 }
 .star_svg svg{
     color: #FF9933;
+    align-items: center;
 }
 .all_partners{
     height: 200px;

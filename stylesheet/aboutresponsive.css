@@ -649,7 +649,7 @@
     }
     .team_cards{
         gap: 25px;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -672,12 +672,13 @@
     }
     .testimonial_card{
         gap: 20px;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .customer{
         flex-direction: column;
         text-align: center;
+        width: 180px;
     }
     .customer_img{
         width: 50px;
@@ -690,7 +691,7 @@
     }
     .test_card{
         width: 227px;
-        height: 300px;
+        height: auto;
     }
     .down_footer{
         gap: 10px;
@@ -964,7 +965,7 @@
     }
     .team_cards{
         gap: 25px;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -986,12 +987,13 @@
     }
     .testimonial_card{
         gap: 20px;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .customer{
         flex-direction: column;
         text-align: center;
+        width: 180px;
     }
     .customer_img{
         width: 50px;
@@ -1312,7 +1314,7 @@
     }
     .team_cards{
         gap: 25px;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -1334,12 +1336,13 @@
     }
     .testimonial_card{
         gap: 20px;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .customer{
         flex-direction: column;
         text-align: center;
+        width: 180px;
     }
     .customer_img{
         width: 50px;
@@ -1352,7 +1355,7 @@
     }
     .test_card{
         width: 227px;
-        height: 300px;
+        height: auto;
     }
     .down_footer{
         gap: 10px;
@@ -1661,7 +1664,7 @@
     }
     .team_cards{
         gap: 25px;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -1683,12 +1686,15 @@
     }
     .testimonial_card{
         gap: 20px;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .customer{
         flex-direction: column;
         text-align: center;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
     }
     .customer_img{
         width: 50px;
@@ -1701,7 +1707,7 @@
     }
     .test_card{
         width: 227px;
-        height: 300px;
+        height: auto;
     }
     .down_footer{
         gap: 10px;
@@ -2012,7 +2018,7 @@
     }
     .team_cards{
         gap: 25px;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -2034,12 +2040,15 @@
     }
     .testimonial_card{
         gap: 20px;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .customer{
         flex-direction: column;
         text-align: center;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 20px;
     }
     .customer_img{
         width: 50px;
@@ -2052,7 +2061,7 @@
     }
     .test_card{
         width: 227px;
-        height: 300px;
+        height: auto;
     }
     .down_footer{
         gap: 10px;
