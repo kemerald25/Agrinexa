@@ -199,6 +199,9 @@
     display: none;
     transition: 0.5s;
 }
+.accordion-content p{
+  line-height: 30px;
+}
 
 .show {
     display: block;
