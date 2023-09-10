@@ -90,3 +90,46 @@ document.getElementById('search-form').addEventListener('submit', function (e) {
     alert('You searched for: ' + searchInput);// You can replace the alert with an actual search functionality using AJAX or other methods.
   });
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ document.addEventListener("DOMContentLoaded", function () {
+    const accordions = document.querySelectorAll(".accordion-item");
+
+    accordions.forEach((accordion) => {
+        const header = accordion.querySelector(".accordion-header");
+        const content = accordion.querySelector(".accordion-content");
+
+        header.addEventListener("click", () => {
+            if (!content.classList.contains("show")) {
+                // Close all open accordion items
+                accordions.forEach((item) => {
+                    const itemContent = item.querySelector(".accordion-content");
+                    if (itemContent !== content && itemContent.classList.contains("show")) {
+                        itemContent.classList.remove("show");
+                        item.querySelector(".accordion-icon").textContent = "+";
+                    }
+                });
+                
+                // Open the clicked accordion item
+                content.classList.add("show");
+                header.querySelector(".accordion-icon").textContent = "−";
+            } else {
+                // Close the clicked accordion item
+                content.classList.remove("show");
+                header.querySelector(".accordion-icon").textContent = "+";
+            }
+        });
+    });
+});

@@ -554,3 +554,15 @@ nav {
     color: #FF9933;
     align-items: center;
 }
+
+.fifth_sect{
+    margin-top: 100px;
+    height: auto;
+    padding-bottom: 50px;
+}
+.fifth_sect h3{
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
