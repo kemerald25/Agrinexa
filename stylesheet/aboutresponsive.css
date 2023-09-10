@@ -386,6 +386,8 @@
     .customer{
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        width: 200px;
     }
     .customer_img{
         width: 40px;
@@ -398,7 +400,7 @@
     }
     .test_card{
         width: 227px;
-        height: 300px;
+        height: auto;
     }
     .down_footer{
         gap: 20px;
