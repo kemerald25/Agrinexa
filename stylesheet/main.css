@@ -500,9 +500,13 @@ nav {
     padding-top: 50px;
 }
 .testimonial_heading h3{
-    font-size: 35px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
     text-align: center;
-    margin: 0;
 }
 .testimonial_card{
     display: flex;
@@ -561,8 +565,12 @@ nav {
     padding-bottom: 50px;
 }
 .fifth_sect h3{
-    font-size: 35px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
     text-align: center;
-    margin: 0;
     margin-bottom: 20px;
 }

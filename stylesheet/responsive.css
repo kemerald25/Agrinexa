@@ -150,6 +150,9 @@
         width: 350px;
         height: auto;
     }
+    .accordion-item {
+        width: 500px !important;
+    }
     
 }
 
@@ -280,6 +283,9 @@
     .test_card{
         width: 227px;
         height: auto;
+    }
+    .accordion-item {
+        width: 500px !important;
     }
 }
 
@@ -478,6 +484,9 @@
     .test_card{
         width: 227px;
         height: auto;
+    }
+    .accordion-item {
+        width: 400px !important;
     }
 }
 
@@ -736,6 +745,9 @@
     .test_card{
         width: 227px;
         height: 300px;
+    }
+    .accordion-item {
+        width: 300px !important;
     }
 }
 
@@ -1002,6 +1014,9 @@
     .test_card{
         width: 227px;
         height: auto;
+    }
+    .accordion-item {
+        width: 250px !important;
     }
 }
 
@@ -1281,6 +1296,9 @@
         width: 227px;
         height: auto;
     }
+    .accordion-item {
+        width: 200px !important;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -1556,5 +1574,8 @@
     .test_card{
         width: 227px;
         height: auto;
+    }
+    .accordion-item {
+        width: 200px !important;
     }
 }
