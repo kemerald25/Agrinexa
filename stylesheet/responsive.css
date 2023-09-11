@@ -2,7 +2,12 @@
     nav {
         max-width: 1200px;
     }
-
+    footer{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; 
+    }
     section {
         max-width: 1200px;
         margin: 0 auto;
@@ -23,6 +28,12 @@
     }
     .carousel_arrow{
         margin-top: 30px;
+    }
+    .down_footer{
+        gap: 50px;
+    }
+    .footer_link ul li a{
+        font-size: 15px;
     }
 }
 
@@ -57,6 +68,38 @@
     }
     .carousel_arrow{
         margin-top: 30px;
+    }
+    .down_footer{
+        gap: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 15px;
+    }
+    .newsletter{
+        width: 280px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .input_fields{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 250px;
+     }
+    .input_fields button {
+        padding: 0px 10px;
     }
 }
 
@@ -133,7 +176,7 @@
         gap: 10px;
     }
     .customer{
-        width: 250px;
+        width: 300px;
         align-items: center;
     }
     .customer_img{
@@ -149,11 +192,53 @@
     .test_card{
         width: 350px;
         height: auto;
+        padding-bottom: 20px;
     }
     .accordion-item {
         width: 500px !important;
     }
-    
+    .down_footer{
+        gap: 10px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 15px;
+    }
+    .footer_link h3{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 250px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 800px) and (min-width: 769px) {
@@ -287,6 +372,49 @@
     .accordion-item {
         width: 500px !important;
     }
+    .down_footer{
+        gap: 20px;
+    }
+    .footer_link ul li a{
+        font-size: 10px;
+    }
+    .footer_link ul li a svg{
+        font-size: 15px;
+    }
+    .footer_link h3{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 250px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+        font-size: 12px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:768px) and (min-width: 601px) {
@@ -305,7 +433,12 @@
     .menu ul {
         margin: 0px 0px;
     }
-
+    footer {
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
     .menu ul li a {
         color: #fff;
     }
@@ -483,10 +616,54 @@
     }
     .test_card{
         width: 227px;
-        height: auto;
+        height: 300px;
+        padding-bottom: 30px;
     }
     .accordion-item {
         width: 400px !important;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 20px;
+    }
+    .footer_link ul li a svg{
+        font-size: 25px;
+    }
+    .footer_link h3{
+        font-size: 25px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
     }
 }
 
@@ -631,7 +808,12 @@
     .input_field input {
         width: 250px;
     }
-
+    .second_section h2{
+        font-size: 22px;
+    }
+    .top_third h2{
+        font-size: 22px;
+    }
     .search_icon {
         background-color: #FF9933;
         padding: 10px;
@@ -745,9 +927,16 @@
     .test_card{
         width: 227px;
         height: 300px;
+        padding-bottom: 30px;
     }
     .accordion-item {
         width: 300px !important;
+    }
+    .testimonial_heading h3{
+        font-size: 22px;
+    }
+    .fifth_sect h3{
+        font-size: 22px;
     }
 }
 
@@ -1013,10 +1202,17 @@
     }
     .test_card{
         width: 227px;
-        height: auto;
+        height: 300px;
+        padding-bottom: 30px;
     }
     .accordion-item {
         width: 250px !important;
+    }
+    .testimonial_heading h3{
+        font-size: 20px;
+    }
+    .fifth_sect h3{
+        font-size: 20px;
     }
 }
 
@@ -1294,10 +1490,17 @@
     }
     .test_card{
         width: 227px;
-        height: auto;
+        height: 300px;
+        padding-bottom: 30px;
     }
     .accordion-item {
         width: 200px !important;
+    }
+    .testimonial_heading h3{
+        font-size: 20px;
+    }
+    .fifth_sect h3{
+        font-size: 20px;
     }
 }
 
@@ -1555,6 +1758,9 @@
         /* flex-direction: column; */
         align-items: center;
     }
+    .testimonial_heading h3{
+        font-size: 20px;
+    }
     .customer{
         flex-direction: column;
         text-align: center;
@@ -1573,9 +1779,13 @@
     }
     .test_card{
         width: 227px;
-        height: auto;
+        height: 300px;
+        padding-bottom: 30px;
     }
     .accordion-item {
         width: 200px !important;
+    }
+    .fifth_sect h3{
+        font-size: 20px;
     }
 }

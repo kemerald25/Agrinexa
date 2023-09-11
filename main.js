@@ -133,3 +133,58 @@ document.getElementById('search-form').addEventListener('submit', function (e) {
         });
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const signupForm = document.getElementById('signup-form');
+    
+    signupForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Gather form data and perform necessary actions, such as validation and submission
+        const fullName = document.getElementById('full-name').value;
+
+        // You can add more form fields and data handling here
+
+        // For demonstration purposes, let's log the data to the console
+        console.log('Full Name:', fullName);
+
+        // You can implement form submission to your server or any other desired actions here
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const formSections = document.querySelectorAll('.form-section');
+    const nextButtons = document.querySelectorAll('.next-section');
+    const prevButtons = document.querySelectorAll('.prev-section');
+    let currentSectionIndex = 0;
+
+    function showSection(index) {
+        formSections.forEach((section, i) => {
+            if (i === index) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+    }
+
+    showSection(currentSectionIndex);
+
+    nextButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            currentSectionIndex++;
+            showSection(currentSectionIndex);
+        });
+    });
+
+    prevButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            currentSectionIndex--;
+            showSection(currentSectionIndex);
+        });
+    });
+});
+
+
