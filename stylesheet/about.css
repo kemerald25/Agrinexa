@@ -393,8 +393,7 @@ footer{
 .scrollable_wrapper {
     width: 100%;
     overflow-x: auto;
-    white-space: nowrap;
-    /* Prevents wrapping of child elements */
+    white-space: wrap;
     scrollbar-width: none;
     padding: 10px 0;
 }
