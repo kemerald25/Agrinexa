@@ -231,17 +231,79 @@ nav ul ul li a:hover {
 
 .product-preview .preview{
     display: none;
-    padding: 5rem;
+    padding: 3rem;
     text-align: center;
     background: #ffffff;
     position: relative;
-    margin: 10rem;
-    width: 40rem;
+    margin: 5rem;
+    width: 30rem;
 }
 
 .product-preview .preview.active{
     display: inline-block;
 }
+
+.product-preview .pro-img img{
+    width: 300px;
+}
+
+.faicon img{
+    width: 20px;
+}
+
+.product-preview .preview .fa-xmark{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    color: #00B207;
+    right: 30px;
+    font-size: 30px;
+}
+
+.product-preview .preview .fa-xmark:hover{
+    transform: rotate(90deg);
+}
+
+.product-preview .preview h3{
+    color: #444;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+.product-preview .preview .stars span{
+    color: #00B207;
+}
+
+.product-preview .preview p{
+    line-height: 1.5;
+    padding: 10px 0;
+    color: #777;
+}
+
+.product-preview .preview .price{
+    padding: 10px 0px;
+    font-size: 25px;
+    color: #00B207;
+}
+
+.product-preview .preview .buttons{
+    display: inline-flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-preview .preview a{
+    padding: 1 rem;
+    font-size: 15px;
+    padding: 5px 8px;
+    color: #444;
+    border: 1px solid #444;
+}
+
+.product-preview .preview a
+
+
 
 
 
