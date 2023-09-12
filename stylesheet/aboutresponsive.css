@@ -101,6 +101,12 @@
     }
     .test_card{
         width: 280px;
+        padding-bottom: 30px;
+    }
+    .quote_text{
+        width: 200px;
+        margin: 0 auto !important;
+        margin-top: 10px;
     }
     .down_footer{
         gap: 30px;
@@ -230,6 +236,11 @@
     .customer{
         width: 250px;
     }
+    .quote_text{
+        width: 160px;
+        margin: 0 auto !important;
+        margin-top: 10px;
+    }
     .customer_img{
         width: 40px;
     }
@@ -241,6 +252,7 @@
     }
     .test_card{
         width: 250px;
+        padding-bottom: 30px;
     }
     .down_footer{
         gap: 10px;
@@ -408,6 +420,11 @@
         width: 200px;
         height: auto;
         padding-bottom: 30px;
+    }
+    .quote_text{
+        width: 130px;
+        margin: 0 auto !important;
+        margin-top: 10px;
     }
     .down_footer{
         gap: 20px;
@@ -688,6 +705,11 @@
         flex-direction: column;
         text-align: center;
         width: 200px;
+    }
+    .quote_text{
+        width: 130px;
+        margin: 0 auto !important;
+        margin-top: 10px;
     }
     .customer_img{
         width: 50px;
@@ -1003,7 +1025,12 @@
     .customer{
         flex-direction: column;
         text-align: center;
-        width: 180px;
+        width: 200px;
+    }
+    .quote_text{
+        width: 130px;
+        margin: 0 auto !important;
+        margin-top: 10px;
     }
     .customer_img{
         width: 50px;
@@ -1015,7 +1042,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 180px;
+        width: 200px;
         height: 300px;
         padding-bottom: 30px;
     }
@@ -1353,10 +1380,15 @@
         /* flex-direction: column; */
         align-items: center;
     }
+    .quote_text{
+        width: 130px;
+        margin: 0 auto !important;
+        margin-top: 10px;
+    }
     .customer{
         flex-direction: column;
         text-align: center;
-        width: 180px;
+        width: 200px;
     }
     .customer_img{
         width: 50px;
@@ -1368,7 +1400,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 180px;
+        width: 200px;
         height: auto;
         padding-bottom: 30px;
     }
@@ -1720,6 +1752,14 @@
     .star_svg svg{
         font-size: 10px;
     }
+    .quote_text{
+        width: 170px;
+        margin: 0 auto !important;
+        margin-top: 10px;
+    }
+    .testimonial_heading h3{
+        font-size: 20px;
+    }
     .test_card{
         width: 200px;
         height: auto;
@@ -2058,6 +2098,14 @@
         gap: 20px;
         /* flex-direction: column; */
         align-items: center;
+    }
+    .quote_text{
+        width: 170px;
+        margin: 0 auto !important;
+        margin-top: 10px;
+    }
+    .testimonial_heading h3{
+        font-size: 20px;
     }
     .customer{
         flex-direction: column;
