@@ -14,6 +14,29 @@
         display: flex;
         justify-content: center;
     }
+    .all-sections {
+        width: 1000px;
+    }
+    .menu ul {
+        display: flex;
+        padding: 0;
+        margin: 0px 200px;
+    }
+    .signup_img {
+        width: 391px;
+        height: 547px;
+    }
+    .btn5{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+    .down_footer{
+        gap: 50px;
+    }
+    .footer_link ul li a{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 1100px) and (min-width: 950px) {
     nav {
@@ -21,7 +44,7 @@
     }
 
     .menu ul {
-        margin: 0px 100px;
+        margin: 0px 150px;
     }
 
     footer {
@@ -40,6 +63,59 @@
 
     .all-sections {
         width: 900px;
+    }
+    .btn5{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+    .signup_img {
+        width: 391px;
+        height: 547px;
+    }
+    .input_field{
+        width: 200px;
+    }
+    .input_field input {
+        width: 100%;
+    }
+    .gender input{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .down_footer{
+        gap: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 15px;
+    }
+    .newsletter{
+        width: 280px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .input_fields{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 250px;
+     }
+    .input_fields button {
+        padding: 0px 10px;
     }
 }
 @media screen and (max-width: 949px) and (min-width: 801px) {
@@ -87,6 +163,69 @@
         padding: 10px 20px;
         border: 1px solid #0F6735;
         border-radius: 4px;
+    }
+    .signup_img {
+        width: 291px;
+        height: 547px;
+    }
+    .input_field{
+        width: 180px;
+    }
+    .btn5{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+    .input_field input {
+        width: 100%;
+    }
+    .gender input{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .down_footer{
+        gap: 10px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 15px;
+    }
+    .footer_link h3{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 250px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 800px) and (min-width: 769px) {
@@ -138,6 +277,73 @@
         padding: 10px 20px;
         border: 1px solid #0F6735;
         border-radius: 4px;
+    }
+    .signup_img {
+        width: 291px;
+        height: 547px;
+    }
+    .input_field{
+        width: 150px;
+    }
+    .btn5{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+    .btn5 button{
+        padding: 8px 20px;
+    }
+    .input_field input {
+        width: 100%;
+    }
+    .gender input{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .down_footer{
+        gap: 20px;
+    }
+    .footer_link ul li a{
+        font-size: 10px;
+    }
+    .footer_link ul li a svg{
+        font-size: 15px;
+    }
+    .footer_link h3{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 250px;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+        font-size: 12px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width:768px) and (min-width: 601px) {
@@ -241,6 +447,83 @@
         padding: 10px 20px;
         border: 1px solid #0F6735;
         border-radius: 4px;
+    }
+    .signup {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .signup_img {
+        width: 100%;
+        height: 150px;
+        flex-shrink: 0;
+        background-image: url(/img/signup.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-position: 30px;
+    }
+    .signup_form{
+        margin-top: 50px;
+    }
+    .input_field{
+        width: 220px;
+    }
+    .input_flex{
+        gap: 20px;
+    }
+    .input_field input{
+        width: 100%;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 20px;
+    }
+    .footer_link ul li a svg{
+        font-size: 25px;
+    }
+    .footer_link h3{
+        font-size: 25px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 600px) and (min-width: 426px) {
@@ -361,6 +644,87 @@
         border: 1px solid #0F6735;
         border-radius: 4px;
     }
+    .signup {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .signup_img {
+        width: 100%;
+        height: 150px;
+        flex-shrink: 0;
+        background-image: url(/img/signup.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-position: 10px;
+    }
+    .signup_form{
+        margin-top: 50px;
+    }
+    .input_field{
+        width: 220px;
+    }
+    .input_flex{
+        gap: 20px;
+    }
+    .input_field input{
+        width: 100%;
+    }
+    .btn5 button{
+        padding: 10px 50px !important;
+        font-size: 12px !important;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 18px;
+    }
+    .footer_link ul li a svg{
+        font-size: 25px;
+    }
+    .footer_link h3{
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 170px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 425px) and (min-width: 321px) {
     * {
@@ -480,6 +844,89 @@
         padding: 10px 20px;
         border: 1px solid #0F6735;
         border-radius: 4px;
+    }
+    .signup {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .signup_img {
+        width: 100%;
+        height: 150px;
+        flex-shrink: 0;
+        background-image: url(/img/signup.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-position: 5px;
+    }
+    .signup_form{
+        margin-top: 50px;
+    }
+    .input_field{
+        width: 200px;
+    }
+    .input_flex{
+        gap: 20px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .input_field input{
+        width: 100%;
+    }
+    .btn5 button{
+        padding: 8px 30px !important;
+        font-size: 12px !important;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 20px;
+    }
+    .footer_link h3{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_field{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_field input {
+        margin-left: 0px;
+    }
+    .input_field form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_field button {
+        padding: 0px 5px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 320px) and (min-width: 281px) {
@@ -609,6 +1056,92 @@
         border: 1px solid #0F6735;
         border-radius: 4px;
     }
+    .signup {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .signup_img {
+        width: 100%;
+        height: 150px;
+        flex-shrink: 0;
+        background-image: url(/img/signup.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-position: 5px;
+    }
+    .signup_form{
+        margin-top: 50px;
+    }
+    .input_field{
+        width: 200px;
+    }
+    .input_flex{
+        gap: 20px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .input_field input{
+        width: 100%;
+    }
+    .btn5 button{
+        padding: 8px 30px !important;
+        font-size: 12px !important;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .feet{
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 20px;
+    }
+    .footer_link h3{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 230px;
+    }
+    .input_fields{
+        width: 230px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+    }
+    .input_fields form{
+        width: 230px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 280px) {
     * {
@@ -661,7 +1194,7 @@
         height: 100vh;
     }
     .all-sections {
-        width: 190px;
+        width: 220px;
     }
 
     .hambuger {
@@ -735,5 +1268,98 @@
         padding: 10px 20px;
         border: 1px solid #0F6735;
         border-radius: 4px;
+    }
+    .signup {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .signup_img {
+        width: 100%;
+        height: 150px;
+        flex-shrink: 0;
+        background-image: url(/img/signup.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-position: 5px;
+    }
+    .signup_form{
+        margin-top: 50px;
+    }
+    .input_field{
+        width: 200px;
+    }
+    .input_flex{
+        gap: 20px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .input_field input{
+        width: 100%;
+    }
+    .btn5 button{
+        padding: 8px 30px !important;
+        font-size: 12px !important;
+    }
+    .signup_img h2{
+        font-size: 20px;
+    }
+    .signup_img p{
+        font-size: 12px;
+    }
+    .down_footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .feet{
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footer_link ul li a{
+        font-size: 13px;
+    }
+    .footer_link ul li a svg{
+        font-size: 20px;
+    }
+    .footer_link h3{
+        font-size: 18px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter h3 {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 170px;
+    }
+    .newsletter p {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 170px;
+    }
+    .input_fields{
+        width: 170px;
+        margin: 0 auto;
+    }
+    .input_fields input {
+        margin-left: 0px;
+        width: 120px;
+    }
+    .input_fields form{
+        width: 170px;
+        height: 30px;
+     }
+    .input_fields button {
+        padding: 0px 5px;
+        font-size: 8px;
     }
 }

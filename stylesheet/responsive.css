@@ -176,7 +176,7 @@
         gap: 10px;
     }
     .customer{
-        width: 300px;
+        width: 260px;
         align-items: center;
     }
     .customer_img{
@@ -190,7 +190,7 @@
         align-items: center;
     }
     .test_card{
-        width: 350px;
+        width: 260px;
         height: auto;
         padding-bottom: 20px;
     }
@@ -366,7 +366,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 227px;
+        width: 200px;
         height: auto;
     }
     .accordion-item {
@@ -603,7 +603,7 @@
     .customer{
         flex-direction: column;
         text-align: center;
-        width: 180px;
+        width: 200px;
     }
     .customer_img{
         width: 50px;
@@ -615,7 +615,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 227px;
+        width: 200px;
         height: 300px;
         padding-bottom: 30px;
     }
@@ -929,7 +929,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 227px;
+        width: 180px;
         height: 300px;
         padding-bottom: 30px;
     }
@@ -1252,7 +1252,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 227px;
+        width: 180px;
         height: 300px;
         padding-bottom: 30px;
     }
@@ -1311,6 +1311,9 @@
     .input_field button {
         padding: 0px 5px;
         font-size: 10px;
+    }
+    .input_fields input{
+        width: 173px;
     }
 }
 
@@ -1573,7 +1576,7 @@
     .customer{
         flex-direction: column;
         text-align: center;
-        width: 200px;
+        width: 160px;
         margin: 0 auto;
         margin-top: 20px;
     }
@@ -1587,7 +1590,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 227px;
+        width: 160px;
         height: 300px;
         padding-bottom: 30px;
     }
@@ -1912,7 +1915,7 @@
     .customer{
         flex-direction: column;
         text-align: center;
-        width: 200px;
+        width: 160px;
         margin: 0 auto;
         margin-top: 20px;
     }
@@ -1926,7 +1929,7 @@
         font-size: 10px;
     }
     .test_card{
-        width: 227px;
+        width: 160px;
         height: 300px;
         padding-bottom: 30px;
     }

@@ -49,7 +49,7 @@ nav {
 .menu ul {
     display: flex;
     padding: 0;
-    margin: 0px 200px;
+    margin: 0px 250px;
 }
 
 .menu ul li {
@@ -91,6 +91,10 @@ nav {
     border: none;
     border-radius: 4px;
 }
+.log a {
+    color: #fff;
+    text-decoration: none;
+}
 
 .sign {
     background-color: #fff;
@@ -98,6 +102,10 @@ nav {
     padding: 12px 28px;
     border: 1px solid #0F6735;
     border-radius: 4px;
+}
+.sign a{
+    color: #0F6735;
+    text-decoration: none;
 }
 
 .log:hover {
@@ -107,9 +115,18 @@ nav {
     cursor: pointer;
 }
 
+.log a:hover {
+    color: #FF9933;
+    cursor: pointer;
+}
+
 .sign:hover {
     background-color: #0F6735;
     border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.sign a:hover {
     color: #fff;
     cursor: pointer;
 }
@@ -210,10 +227,11 @@ nav {
 .input_field label {
     color: #000;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+    margin-bottom: 20px;
     /* 142.857% */
 }
 
@@ -225,4 +243,136 @@ nav {
     border: none;
     border-bottom: 1px solid #8D8D8D;
     outline: none;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.gender > div{
+    display: flex;
+    align-items: center;
+}
+.gender > div > p{
+    margin: 0;
+    margin-right: 10px;
+}
+.gender input{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn5 button{
+    padding: 12px 50px;
+    border: none;
+    background-color: #0F6735;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #0F6735;
+    height: 450px;
+}
+.foot{
+    width: 100%;
+}
+.feet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+}
+.top_footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.straight_line{
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+.down_footer{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.footer_link{
+    color: #fff;
+}
+.footer_link ul{
+    padding: 0;
+}
+.footer_link ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.footer_link ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.footer_link ul li a:hover{
+    text-decoration: underline;
+}
+.footer_link ul li a svg{
+    font-size: 20px;
+}
+.newsletter{
+    background-color: #ff9933b7;
+    width: 320px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+.newsletter h3{
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 280px;
+}
+.input_fields form{
+   display: flex;
+   justify-content: center;
+   margin: 30px auto;
+   align-items: center;
+   background-color: #0f6735b1;
+   width: 280px;
+   height: 40px;
+   border-radius: 4px;
+}
+.input_fields input{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: 10px;
+}
+.input_fields button{
+    height: 100%;
+    background-color: #0F6735;
+    border: none;
+    color: #fff;
+    padding: 0px 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+.input_fields button:hover{
+    background-color: #16a71f;
+}
+.newsletter p{
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 280px;
+    font-weight: 400;
 }
