@@ -326,7 +326,7 @@ nav {
 .scrollable_wrapper {
     width: 100%;
     overflow-x: auto;
-    white-space: nowrap;
+    white-space: wrap;
     /* Prevents wrapping of child elements */
     scrollbar-width: none;
     padding: 10px 0;
