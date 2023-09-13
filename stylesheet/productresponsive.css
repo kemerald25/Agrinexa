@@ -404,6 +404,14 @@
         border: 1px solid #0F6735;
         border-radius: 4px;
     }
+    .product-preview .preview {
+        padding: 3rem;
+        text-align: center;
+        background: #ffffff;
+        position: relative;
+        margin: 5rem;
+        width: 20rem;
+    }
 }
 
 @media screen and (max-width: 320px) and (min-width: 281px) {
