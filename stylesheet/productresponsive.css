@@ -409,8 +409,20 @@
         text-align: center;
         background: #ffffff;
         position: relative;
-        margin: 5rem;
+        margin: 0 auto;
         width: 20rem;
+    }
+    .scrollable_wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    
+    .scrollable_wrapper {
+        width: 100%;
+        overflow-x: auto;
+        white-space: wrap;
+        scrollbar-width: none;
+        padding: 10px 0;
     }
 }
 
