@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,112 @@
     scroll-behavior: smooth;
     transition: all .2s linear;
     text-transform: capitalize;
-    font-family: 'poppins';
+    font-family: 'Inter';
+}
+
+
+nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(232, 232, 232, 0.25);
+    z-index: 9999;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0px 200px;
+}
+
+.menu ul li {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+
+    /* Body/Medium/Body 2 */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.menu ul li a:hover {
+    color: #0F6735;
+}
+
+.menu ul li a.active {
+    color: #0F6735;
+}
+
+.btn2 {
+    display: none;
+}
+
+.log {
+    background-color: #FF9933;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+}
+
+.sign {
+    background-color: #fff;
+    color: #0F6735;
+    padding: 12px 28px;
+    border: 1px solid #0F6735;
+    border-radius: 4px;
+}
+
+.log:hover {
+    background-color: #fff;
+    border: 1px solid #FF9933;
+    color: #FF9933;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: #0F6735;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-links {
+    transition: 0.7s ease;
+}
+
+.hambuger {
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
 }
 
 
@@ -16,45 +122,45 @@
     padding-top: 90px;
     padding-bottom: 25px;
 }
-nav ul {
+.pro-cat ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
 
-nav ul li {
+.pro-cat ul li {
     display: inline-block;
     position: relative;
 }
 
-nav ul li a {
+.pro-cat ul li a {
     color: #4d4d4d;
     text-decoration: none;
     display: block;
 }
 
-nav ul li:hover > ul {
+.pro-cat ul li:hover > ul {
     display: block;
     background-color: #FF9933;
 
 }
 
 
-nav ul ul {
+.pro-cat ul ul {
     position: absolute;
     left: 0;
     display: none;
     background-color: white;
 }
 
-nav ul ul li {
+.pro-cat ul ul li {
     display: block;
     width: 200px;
     padding: 20px 10px;
 }
 
-nav ul ul li a:hover {
+.pro-cat ul ul li a:hover {
     color: white;
     width: 100%;
 }
@@ -110,14 +216,15 @@ nav ul ul li a:hover {
 }
 
 
-.card-1{
+.allCard{
     border: 1px solid #dad6d6;
     border-radius: 10px;
 }
 
-.card-1:hover{
+.allCard:hover{
     border: 1px solid #2C742F;
     box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+    cursor: pointer;
 }
 
 .order:hover{
@@ -305,7 +412,9 @@ nav ul ul li a:hover {
 
 
 
-
+.block-page {
+    display: none;
+ }
 
 
 
