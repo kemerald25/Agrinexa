@@ -410,6 +410,7 @@
         background: #ffffff;
         position: relative;
         margin: 0 auto;
+        margin-top: 40px;
         width: 20rem;
     }
     .scrollable_wrapper::-webkit-scrollbar {
