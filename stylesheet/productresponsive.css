@@ -244,6 +244,27 @@
         border: 1px solid #0F6735;
         border-radius: 4px;
     }
+    .product-preview .preview {
+        padding: 3rem;
+        text-align: center;
+        background: #ffffff;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 20rem;
+    }
+    .scrollable_wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    
+    .scrollable_wrapper {
+        width: 100%;
+        overflow-x: auto;
+        white-space: wrap;
+        scrollbar-width: none;
+        padding: 10px 0;
+    }
 }
 @media screen and (max-width: 600px) and (min-width: 426px) {
     * {
@@ -287,6 +308,27 @@
         margin: 0 auto;
         display: flex;
         justify-content: center;
+    }
+    .product-preview .preview {
+        padding: 3rem;
+        text-align: center;
+        background: #ffffff;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 20rem;
+    }
+    .scrollable_wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    
+    .scrollable_wrapper {
+        width: 100%;
+        overflow-x: auto;
+        white-space: wrap;
+        scrollbar-width: none;
+        padding: 10px 0;
     }
 }
 @media screen and (max-width: 425px) and (min-width: 321px) {
@@ -550,6 +592,30 @@
         border: 1px solid #0F6735;
         border-radius: 4px;
     }
+    .product-preview .preview {
+        padding: 20px;
+        text-align: center;
+        background: #ffffff;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .allCard{
+        width: 250px;
+    }
+    .scrollable_wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    
+    .scrollable_wrapper {
+        width: 100%;
+        overflow-x: auto;
+        white-space: wrap;
+        scrollbar-width: none;
+        padding: 10px 0;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -674,5 +740,29 @@
         padding: 10px 20px;
         border: 1px solid #0F6735;
         border-radius: 4px;
+    }
+    .product-preview .preview {
+        padding: 20px;
+        text-align: center;
+        background: #ffffff;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .allCard{
+        width: 250px;
+    }
+    .scrollable_wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    
+    .scrollable_wrapper {
+        width: 100%;
+        overflow-x: auto;
+        white-space: wrap;
+        scrollbar-width: none;
+        padding: 10px 0;
     }
 }
