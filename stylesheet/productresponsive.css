@@ -14,6 +14,27 @@
         display: flex;
         justify-content: center;
     }
+
+    .all-sections {
+        width: 1000px;
+    }
+    .first-card {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .menu ul {
+        margin: 0px 220px;
+    }
+    .input_field {
+        margin: 0 auto;
+    }
+
+    .input_field input {
+        margin: 0 auto;
+    }
     .down_footer{
         gap: 50px;
     }
@@ -27,7 +48,10 @@
     }
 
     .menu ul {
-        margin: 0px 100px;
+        margin: 0px 150px;
+    }
+    .all-sections {
+        width: 900px;
     }
 
     footer {
@@ -42,6 +66,9 @@
         margin: 0 auto;
         display: flex;
         justify-content: center;
+    }
+    .down_footer{
+        gap: 30px;
     }
 }
 @media screen and (max-width: 949px) and (min-width: 801px) {

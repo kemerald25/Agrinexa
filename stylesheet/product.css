@@ -20,6 +20,7 @@ nav {
     width: 100%;
     box-shadow: 0px 4px 4px 0px rgba(232, 232, 232, 0.25);
     z-index: 9999;
+    top: 0;
 }
 
 
@@ -33,7 +34,7 @@ nav {
 .menu ul {
     display: flex;
     padding: 0;
-    margin: 0px 200px;
+    margin: 0px 250px;
 }
 
 .menu ul li {
@@ -119,6 +120,147 @@ nav {
 }
 
 
+
+
+
+
+.first_sect{
+    background-image: url(/img/Discount\ Bannar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.all-sections{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.flash_sales{
+    padding-top: 150px;
+}
+
+.best{
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+
+.month-percent{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.month-percent > h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.percent{
+    background-color: #FF9933;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    margin-left:30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.percent h3{
+    font-size: 25px;
+    margin: 0;
+}
+.percent p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.count-down{
+    display: flex;
+    gap: 0.5rem;
+}
+.days{
+    text-align: center;
+}
+.digit{
+    font-size: 30px;
+    color: #16a71f;
+    margin: 0;
+}
+.digits{
+    font-size: 30px;
+    color: #a9a8a8;
+    margin: 0;
+}
+.mins{
+    font-size: 12px;
+    color: #a9a8a8;
+}
+.btn3{
+    margin-top: 20px;
+}
+.btn3 button{
+    background-color: #0F6735;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.btn3 button:hover{
+    background-color: #fff;
+    color: #0F6735;
+    border: 1px solid #0F6735;
+    cursor: pointer;
+}
+.arrow{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.arrow:hover{
+    color: #0F6735;
+}
+.arrows{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(63, 63, 63, 0.25);
+    background-color: #fff;
+    border-radius: 50%;
+}
+.arrows:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #0F6735;
+}
+
+
+
+
+
+.scrollable_wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.scrollable_wrapper {
+    width: 100%;
+    overflow-x: auto;
+    white-space: wrap;
+    scrollbar-width: none;
+    padding: 10px 0;
+}
+
+
+
+
+
+
 .categories {
     padding-top: 90px;
     padding-bottom: 25px;
@@ -145,7 +287,7 @@ nav {
 .pro-cat ul li:hover>ul {
     display: block;
     background-color: #FF9933;
-
+    z-index: 9999;
 }
 
 
@@ -223,6 +365,7 @@ nav {
 .allCard {
     border: 1px solid #dad6d6;
     border-radius: 10px;
+    height: 305px;
 }
 
 .allCard:hover {
@@ -247,7 +390,7 @@ nav {
 
 .first-card {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -422,6 +565,11 @@ nav {
     display: none;
 }
 
+.product-preview .preview a:hover{
+    background-color: #444;
+    color: white;
+}
+
 
 
 /* .footer-logo{
@@ -442,3 +590,114 @@ nav {
 .footer-flex-2{
     display: block;
 } */
+
+
+
+
+
+
+
+footer{
+    background-color: #0F6735;
+    height: 450px;
+    width: 100%;
+}
+.foot{
+    width: 100%;
+}
+.feet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+}
+.top_footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.straight_line{
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+.down_footer{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+.footer_link{
+    color: #fff;
+}
+.footer_link ul{
+    padding: 0;
+}
+.footer_link ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.footer_link ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.footer_link ul li a:hover{
+    text-decoration: underline;
+}
+.footer_link ul li a svg{
+    font-size: 20px;
+}
+.newsletter{
+    background-color: #ff9933b7;
+    width: 320px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+.newsletter h3{
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 280px;
+}
+.input_fields form{
+   display: flex;
+   justify-content: center;
+   margin: 30px auto;
+   align-items: center;
+   background-color: #0f6735b1;
+   width: 280px;
+   height: 40px;
+   border-radius: 4px;
+}
+.input_fields input{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: 10px;
+}
+.input_fields button{
+    height: 100%;
+    background-color: #0F6735;
+    border: none;
+    color: #fff;
+    padding: 0px 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+.input_fields button:hover{
+    background-color: #16a71f;
+}
+.newsletter p{
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 280px;
+    font-weight: 400;
+}
