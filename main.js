@@ -188,8 +188,32 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+// netlifyIdentity.on('init', (user) => {
+//     if (user) {
+//         document.getElementById('user-info').textContent = `Hello, ${user.user_metadata.full_name}!`;
+//     }
+// });
+
 netlifyIdentity.on('init', (user) => {
     if (user) {
+        // User is logged in, show "Log Out" button and user info
+        document.getElementById('login-button').style.display = 'none';
+        document.getElementById('signup-button').style.display = 'none';
+        document.getElementById('logout-button').style.display = 'block';
         document.getElementById('user-info').textContent = `Hello, ${user.user_metadata.full_name}!`;
+
+        // Redirect to the dashboard after login
+        window.location.href = 'home.html';
+    } else {
+        // User is not logged in, show "Log In" and "Sign Up" buttons
+        document.getElementById('login-button').style.display = 'block';
+        document.getElementById('signup-button').style.display = 'block';
+        document.getElementById('logout-button').style.display = 'none';
+        document.getElementById('user-info').textContent = '';
     }
 });
+
+// Function to handle logout
+function logout() {
+    netlifyIdentity.logout();
+}
