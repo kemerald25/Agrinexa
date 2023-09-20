@@ -13,33 +13,36 @@
 <body>
   <nav>
     <div class="navbar">
-      <div class="logo">
-        <a href="index.html"> <img src="/img/Asset 5 1.png" alt=""></a>
-      </div>
-      <div class="menu">
-        <ul class="nav-menu">
-          <li class="index"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="product.html">Products</a></li>
-          <div class="btn2">
-            <button class="log">Log In</button>
-            <a href="sellersignup.html"> <button class="sign">Sign Up </button></a>
-          </div>
-        </ul>
-      </div>
-      <div class="btn">
-        <button class="log">Log In</button>
-        <a href="sellersignup.html"> <button class="sign">Sign Up</button></a>
-      </div>
+        <div class="logo">
+            <a href="index.html"> <img src="/img/Asset 5 1.png" alt=""></a>
+        </div>
+        <div class="menu">
+            <ul class="nav-menu">
+                <li class="index"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <div class="btn2">
+                    <button onclick="netlifyIdentity.open()" class="log">Log In</button>
+                    <button onclick="netlifyIdentity.open('signup')" class="sign">Sign Up </button>
+                    <button id="logout-button" onclick="logout()" style="display: none;" class="sign">Log Out</button>
+                </div>
+            </ul>
+        </div>
+        <div class="btn">
+            <button onclick="netlifyIdentity.open()" class="log">Log In</button>
+            <button onclick="netlifyIdentity.open('signup')" class="sign">Sign Up</button>
+            <button id="logout-button" onclick="logout()" style="display: none;" class="sign">Log Out</button>
+        </div>
 
-      <div class="hambuger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
+        <div class="hambuger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </div>
 
-  </nav>
+</nav>
+<div id="user-info"></div>
 
   <section class="first_sect">
     <div class="all-sections">
@@ -1086,6 +1089,8 @@
 
   <script src="product.js   "></script>
   <script src="https://kit.fontawesome.com/68ee792643.js" crossorigin="anonymous"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </body>
 
 </html>

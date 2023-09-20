@@ -23,14 +23,16 @@
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="product.html">Products</a></li>
                     <div class="btn2">
-                        <button class="log">Log In</button>
-                        <a href="sellersignup.html"><button class="sign">Sign Up</button></a>
+                        <button onclick="netlifyIdentity.open()" class="log">Log In</button>
+                        <button onclick="netlifyIdentity.open('signup')" class="sign">Sign Up </button>
+                        <button id="logout-button" onclick="logout()" style="display: none;" class="sign">Log Out</button>
                     </div>
                 </ul>
             </div>
             <div class="btn">
-                <button class="log">Log In</button>
-                <a href="sellersignup.html">  <button class="sign">Sign Up</button></a>
+                <button onclick="netlifyIdentity.open()" class="log">Log In</button>
+                <button onclick="netlifyIdentity.open('signup')" class="sign">Sign Up</button>
+                <button id="logout-button" onclick="logout()" style="display: none;" class="sign">Log Out</button>
             </div>
 
             <div class="hambuger">
@@ -41,6 +43,7 @@
         </div>
 
     </nav>
+    <div id="user-info"></div>
 
     <section class="first_sect">
         <div class="all-sections">
@@ -1054,6 +1057,8 @@
         </div>
     </footer>
     <script src='main.js'></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </body>
 
 </html>
