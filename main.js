@@ -188,3 +188,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+netlifyIdentity.on('init', (user) => {
+    if (user) {
+        document.getElementById('user-info').textContent = `Hello, ${user.user_metadata.full_name}!`;
+    }
+});
