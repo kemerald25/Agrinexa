@@ -203,7 +203,7 @@ netlifyIdentity.on('init', (user) => {
         document.getElementById('user-info').textContent = `Hello, ${user.user_metadata.full_name}!`;
 
         // Redirect to the dashboard after login
-        window.location.href = 'home.html';
+        window.location.href = 'dashboard.html';
     } else {
         // User is not logged in, show "Log In" and "Sign Up" buttons
         document.getElementById('login-button').style.display = 'block';
